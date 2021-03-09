@@ -86,40 +86,40 @@
   }
 
   /* Servicios */
-  .news-cards {
+  .servicios-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     margin: 70px;
   }
-  .news-cards img {
+  .servicios-cards img {
     width: 100%;
     height: 250px;
     height:auto;
   }
-  .news-cards h3 {
+  .servicios-cards h3 {
     font-size: 20px;
     margin: 10px;
     background-color: #ffc999;
   }
 
-  .news-cards p, h3{
+  .servicios-cards p, h3{
     text-align: center;
   }
 
   /* Contacto*/
-  .cards-banner-one {
+  .banner-contacto {
     width: 100%;
     height: 350px;
     background: url("./img/banner.jpg");
     margin-bottom: 40px;
   }
-  .cards-banner-one .content {
+  .banner-contacto .content {
     width: 40%;
     padding: 90px;
     color: #fff;
   }
-  .cards-banner-one p {
+  .banner-contacto p {
     margin: 10px;
   }
 
