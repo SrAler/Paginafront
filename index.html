@@ -10,56 +10,128 @@
     </head>
 
     <body>
+        <header class="header">
+            <div class="contenedor">
+                <nav class="nav" id="nav">
+                    <img src="img/logo2.png" alt="Logo" class="nav__logo">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="">Iniciar Sesion</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#contacto">Contacto</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#turnos">Turnos</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#profesionales">Profesionales</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#servicios">Servicios</a></li>
+                        <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
 
-        <div id="container">
-            <header class="header">
-                <div class="contener">
-                    <nav class="nav" id="nav">
-                         <img src="img/logo.png" alt="Logo" class="nav__logo">
-                         <ul class="menu">
-                            <li class="menu__item"><a class="menu__link" href="">Iniciar Sesion</a></li>
-                            <li class="menu__item"><a class="menu__link" href="">Turnos</a></li>
-                            <li class="menu__item"><a class="menu__link" href="contact.html">Contacto</a></li>
-                            <li class="menu__item"><a class="menu__link" href="">Profesionales</a></li>
-                            <li class="menu__item"><a class="menu__link" href="">Servicios</a></li>
-                            <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-
-            <div class="banner">
-                <h2 class="banner__titulo">Consultorio Kinesiológico</h2>
-                <p class="banner__txt">Responsabilidad, profesionalismo y vocación de servicio</p>
-            </div>
-
-        <!-- Para los servicios -->
-        <div class="news-cards">
-            <div>
-                <img src="./img/banner.jpg" alt="" />
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?</p>
-            </div>
-            <div>
-                <img src="./img/banner.jpg" alt="" />
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?</p>
-            </div>
-            <div>
-                <img src="./img/banner.jpg" alt="" />
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?</p>
-            </div>
+        <div class="banner">
+            <h1 class="banner__titulo">HealthCare</h1>
+            <h2 class="banner__titulo">Consultorio Kinesiológico</h2>
+            <p class="banner__txt">Responsabilidad, profesionalismo y vocación de servicio</p>
         </div>
 
-        <!-- Para los contactos y mapa -->
-        <section class="cards-banner-one">
-            <div class="content">
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maxime facilis quasi alias illo, fugiat cupiditate porro dolores tenetur delectus!</p>
+
+        <div id="servicios" class="titulos"> 
+            <h2>Servicios</h2> 
+        </div>
+        <!-- Para los servicios -->
+        <div class="servicios-cards">     
+            <div>
+                <img src="./img/kinesio.jpg" alt="" />
+                <h3>Kinesiología</h3>
+                <p>Fisioterapia, ultrasonido, onda corta, crioterapia, masaje de relajación, electroestimulación, masaje descontracturante, entre otros.</p>
             </div>
-        </section>
+            <div>
+                <img src="./img/DL.jpg" alt="" />
+                <h3>Drenaje Linfático</h3>
+                <p>Reactiva la circulación linfática y ayuda a eliminar sustancias de desecho del organismo. Reduce la inflamación y contribuye a mejorar las defensas del organismo y el aspecto de la piel</p>
+                </div>
+            <div>
+                <img src="./img/Rehabilitacion.jpg" alt="" />
+                <h3>Rehabilitacion</h3>
+                <p>Contamos con un gimnasio preparado para la rehabilitación funcional, trazando un plan de entrenamiento personalizado </p>
+                </div>
+        </div>
+
+        <div id="profesionales" class="titulos"> 
+            <h2>Nuestros Profecionales</h2> 
+        </div>
+        <!-- Para el equipo médico -->
+        <div class="profesionales-cards">     
+            <div>
+                <img src="./img/doctorin.jpg" alt="" />
+                <h3>Lcdo. Harold Droe</h3>
+                <p>Hace masajitos piola, un divino, te ceba mates.</p>
+            </div>
+            <div>
+                <img src="./img/doctora.PNG" alt="" />
+                <h3>Dra. Jane Doe</h3>
+                <p>Kinesiologa y Terapista Ocupacional, especialista en rehabilitación de mano y miembro superior; drenaje linfático manual y estética.</p>
+            </div>
+            <div>
+                <img src="./img/doctor.jpg" alt="" />
+                <h3>Dr.John Doe </h3>
+                <p>Kinesiólogo especializado en deporte y traumatologia.</p>
+            </div>
+        </div>
   
+        <div id="turnos" class="titulos"> 
+            <h2>Turnos</h2> 
+        </div>
+        <!-- Para la explicacion de los turnos, AGREGAR UN BOTO QUE DIGA, SACAR UN TURNO AHORA -->
+        <div class="Turno-titulo"> 
+            <h3>Para reservar un turno, siga los siguientes pasos</h3>
+        <div>
+            <div class="Turnos-pasos">
+                <div>
+                    <img src="./img/inicioses.png" alt="" />
+                    <p>1)Cree una cuenta, o inicie sesión si ya tiene una.</p>
+                </div>
+                <div class="Flecha"><div><img src="./img/flecha.png" alt=""/></div></div>    
+                <div>
+                    <img src="./img/elegirpro.png" alt="" />
+                    <p>2)Escoja un profesional.</p>
+                </div>
+                <div class="Flecha"><div><img src="./img/flecha.png" alt=""/></div></div>
+                <div>
+                    <img src="./img/calendar.png" alt="" />
+                    <p>3)Escoja fecha y hora del turno.</p>
+                </div>
+            </div>
+        
+        <!-- Para la informacion de contacto y el pie de pag -->
+        <div id="contacto">
+            <br><h3>Contacto</h3>
+            <div class="footer-container">
+                <ul>
+                    <li>
+                      <p> <strong>Dirección:</strong> 9 de Julio 15xx, Resistencia Chaco </p>
+                    </li>
+                    <li>
+                      <p> <strong>Telefono:</strong> 4442xx </p>
+                  </ul>
+                  <ul>
+                    <li>
+                        <p> <strong>Whatsapp:</strong> 3624-2749xx </p>
+                    </li>
+                    <li>
+                      <p> <strong>E-mail:</strong> healthcare@gmail.com </p>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <h3> Informatorio 2021 - Grupo 2 </h3>
+        </footer>
+
+
+
+
+
 
             <!-- <header> <h2>Probanding</h2> </header>
             <nav>
