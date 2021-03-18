@@ -1,0 +1,17 @@
+<h1>Turno</h1>
+<table>
+ <tr>
+    <th>Servicio</th>
+    <th>Profesional</th>
+    <th>Fecha y hora</th>
+  </tr>
+  {% for t in Turnos %}
+  
+  <tr>
+    <td>{{t.Servicio_Profesional.Servicio.Nombre}}</td>
+    <td>{{t.Servicio_Profesional.Profesional.Usuario.NombreYApellido}}</td>
+    <td>{{t.Fecha}}</td>
+  </tr>
+  
+  {% endfor %}
+</table>
